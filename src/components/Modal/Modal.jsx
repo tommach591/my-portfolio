@@ -1,7 +1,7 @@
 import "./Modal.css";
 
-function Modal({ modalOn, setModalOn }) {
-  return modalOn ? <div className="Modal"></div> : <div />;
+function Modal({ children, modalOn, setModalOn }) {
+  return modalOn ? <div className="Modal">{children}</div> : <div />;
 }
 
 export default Modal;
