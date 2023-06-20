@@ -7,6 +7,8 @@ function Carousel({ list }) {
   const [prev, setPrev] = useState(list.length - 1);
   const [next, setNext] = useState(1);
 
+  const [shift, setShift] = useState("");
+
   const handleNext = useCallback(() => {
     setPrev(current);
     setCurrent(next);
@@ -32,30 +34,46 @@ function Carousel({ list }) {
     [list]
   );
 
+  const handleShiftAnimation = useCallback(() => {
+    if (shift === "next") handleNext();
+    else if (shift === "prev") handlePrev();
+  }, [shift, handleNext, handlePrev]);
+
   useEffect(() => {
     const interval = setTimeout(() => {
-      handleNext();
+      setShift("next");
     }, [5000]);
 
     return () => {
       clearInterval(interval);
     };
-  }, [handleNext]);
+  }, [shift, current]);
 
   return (
     <div className="Carousel">
-      <Content item={list[prev]} />
-      <Content item={list[current]} />
-      <Content item={list[next]} />
+      <div
+        className="ContentContainer"
+        shift={shift}
+        onAnimationStart={() => handleShiftAnimation()}
+        onAnimationEnd={() => setShift("")}
+      >
+        <Content item={list[prev]} />
+        <Content item={list[current]} />
+        <Content item={list[next]} />
+      </div>
       <img
         className="Prev"
-        onClick={() => handlePrev()}
+        onClick={() => {
+          if (shift === "") setShift("prev");
+        }}
         src="https://api.iconify.design/material-symbols:arrow-circle-left.svg?color=%23ffffff"
         alt=""
       />
       <img
         className="Next"
-        onClick={() => handleNext()}
+        onClick={() => {
+          if (shift === "") setShift("next");
+        }}
         src="https://api.iconify.design/material-symbols:arrow-circle-right.svg?color=%23ffffff"
         alt=""
       />

@@ -10,7 +10,7 @@
 
 .Info {
   margin-right: auto;
-  width: 35%;
+  width: 40%;
 
   color: white;
 }
@@ -27,13 +27,13 @@
 
 .Thumbnail {
   width: 45%;
-  height: 95%;
+  height: 92%;
 
   border-radius: 10px;
 
   overflow: hidden;
 
-  box-shadow: 0px 0px 5px 2px rgb(20, 20, 20);
+  box-shadow: -3px 5px 5px 2px rgb(25, 25, 25);
 }
 
 .Thumbnail > img {
