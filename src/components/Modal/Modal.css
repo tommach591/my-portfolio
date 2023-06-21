@@ -1,3 +1,102 @@
 .Modal {
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.ModalBody {
+  width: 40rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: fixed;
+  top: 5rem;
+
+  background: rgb(70, 70, 70);
+  border-radius: 10px;
+}
+
+.ModalClose {
+  position: absolute;
+  top: 0.25rem;
+  right: 0.25rem;
+
+  width: 2rem;
+}
+
+.ModalClose:hover {
+  cursor: pointer;
+}
+
+.ModalThumbnail {
+  width: 100%;
+  height: 50%;
+
+  border-radius: 10px 10px 0px 0px;
+
+  overflow: hidden;
+}
+
+.ModalThumbnail > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ModalText {
+  padding: 1rem;
+}
+
+.ModalText > h1 {
+  font-size: 22px;
+  color: white;
+
+  margin-bottom: 1rem;
+}
+
+.ModalText > h2 {
+  font-size: 14px;
+  color: white;
+
+  line-height: 22px;
+  margin-bottom: 1rem;
+}
+
+.ProjectLinks {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 2rem;
+}
+
+.ProjectLink {
+  width: 4rem;
+
+  box-shadow: -1px 2px 5px 1px rgb(25, 25, 25);
+
+  text-align: center;
+  padding: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: 5px;
+
+  color: white;
+  background: rgb(50, 50, 50);
+}
+
+.ProjectLink:hover {
+  cursor: pointer;
+  background: rgb(25, 25, 25);
 }
 

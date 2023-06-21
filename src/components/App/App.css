@@ -1,10 +1,10 @@
 .App {
   width: 100%;
-  min-height: 95vh;
   display: flex;
   flex-direction: column;
   align-items: center;
 
+  position: relative;
   padding-bottom: 5vh;
 
   background: rgb(50, 50, 50);
@@ -37,7 +37,55 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 
   padding-top: 4rem;
+}
+
+.ProjectTitle {
+  width: 75%;
+
+  font-size: 32px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-bottom: 0.75rem;
+
+  text-align: center;
+  color: white;
+  border-bottom: 3px solid white;
+}
+
+.ProjectGrid {
+  width: 80%;
+
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+  grid-template-columns: repeat(auto-fit, 25rem);
+  grid-auto-rows: 30rem;
+
+  gap: 5rem;
+}
+
+.NumberIndex {
+  display: flex;
+
+  color: white;
+  margin-top: 2rem;
+}
+
+.NumberIndex > h1 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  text-align: center;
+
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.NumberIndex > h1:hover {
+  cursor: pointer;
 }
 

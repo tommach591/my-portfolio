@@ -7,6 +7,8 @@
   overflow: hidden;
 
   position: relative;
+
+  margin-bottom: 5rem;
 }
 
 .Prev {
@@ -16,11 +18,19 @@
   top: 50%;
 }
 
+.Prev:hover {
+  cursor: pointer;
+}
+
 .Next {
   width: 2rem;
   position: absolute;
   right: 0;
   top: 50%;
+}
+
+.Next:hover {
+  cursor: pointer;
 }
 
 .CarouselIndicators {
@@ -51,10 +61,6 @@
   justify-content: center;
 
   position: relative;
-}
-
-.ContentContainer[shift=""] {
-  animation: ;
 }
 
 .ContentContainer[shift="next"] {

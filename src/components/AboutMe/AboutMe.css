@@ -1,0 +1,40 @@
+.AboutMe {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Info {
+  width: 80%;
+  display: flex;
+
+  background: rgb(70, 70, 70);
+
+  position: relative;
+
+  margin: 1rem;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 10px;
+  color: white;
+
+  box-shadow: -3px 5px 5px 2px rgb(25, 25, 25);
+}
+
+.Text > h1 {
+  width: fit-content;
+
+  font-size: 28px;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+
+  border-bottom: 2px solid white;
+}
+
+.Text > h2 {
+  font-size: 16px;
+  line-height: 24px;
+}

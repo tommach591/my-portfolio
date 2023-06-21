@@ -1,0 +1,52 @@
+.Project {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: relative;
+
+  background: rgb(70, 70, 70);
+  border-radius: 10px;
+
+  box-shadow: -3px 5px 5px 2px rgb(25, 25, 25);
+}
+
+.Project:hover {
+  cursor: pointer;
+}
+
+.ProjectThumbnail {
+  width: 100%;
+  height: 50%;
+
+  border-radius: 10px 10px 0px 0px;
+
+  overflow: hidden;
+}
+
+.ProjectThumbnail > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ProjectText {
+  padding: 1rem;
+}
+
+.ProjectText > h1 {
+  font-size: 24px;
+  color: white;
+
+  margin-bottom: 1rem;
+}
+
+.ProjectText > h2 {
+  font-size: 16px;
+  color: white;
+
+  line-height: 22px;
+}

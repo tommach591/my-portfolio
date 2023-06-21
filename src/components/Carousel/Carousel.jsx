@@ -1,8 +1,8 @@
-import { useCallback, useEffect, useState } from "react";
 import "./Carousel.css";
+import { useCallback, useEffect, useState } from "react";
 import Content from "../Content";
 
-function Carousel({ list }) {
+function Carousel({ list, handleProjectClick }) {
   const [current, setCurrent] = useState(0);
   const [prev, setPrev] = useState(list.length - 1);
   const [next, setNext] = useState(1);
@@ -42,7 +42,7 @@ function Carousel({ list }) {
   useEffect(() => {
     const interval = setTimeout(() => {
       setShift("next");
-    }, [8000]);
+    }, [5000]);
 
     return () => {
       clearInterval(interval);
@@ -57,9 +57,9 @@ function Carousel({ list }) {
         onAnimationStart={() => handleShiftAnimation()}
         onAnimationEnd={() => setShift("")}
       >
-        <Content item={list[prev]} />
-        <Content item={list[current]} />
-        <Content item={list[next]} />
+        <Content item={list[prev]} handleProjectClick={handleProjectClick} />
+        <Content item={list[current]} handleProjectClick={handleProjectClick} />
+        <Content item={list[next]} handleProjectClick={handleProjectClick} />
       </div>
       <img
         className="Prev"
