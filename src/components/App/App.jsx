@@ -55,6 +55,7 @@ function App() {
             (_, index) => index + 1
           ).map((_, i) => (
             <h1
+              key={i}
               onClick={() => setPage(i)}
               style={page === i ? { borderBottom: "1px solid white" } : {}}
             >
