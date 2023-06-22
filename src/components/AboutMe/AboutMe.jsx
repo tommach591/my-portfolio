@@ -1,5 +1,5 @@
 import "./AboutMe.css";
-import Resume from "../../assets/Tom_Mach_Resume.pdf";
+import Resume from "../../assets/Tom Mach Resume.pdf";
 
 function AboutMe() {
   return (

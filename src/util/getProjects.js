@@ -40,7 +40,7 @@ export function getProjects() {
       description:
         "A progress tracker for the online game League of Legends, this website allows users to enter their in-game name and retrieves the corresponding information from the server for display. The application is designed with a strong focus on user-friendliness.",
       details:
-        "This full stack project involved utilizing Riot Games' API to retrieve live data for the game. Through this project, I gained valuable experience in working with environmental variables and implementing secure storage of API keys.",
+        'This full stack project involved utilizing Riot Games\' API to retrieve live data for the game. Through this project, I gained valuable experience in working with environmental variables and implementing secure storage of API keys. If you do not play this game, try searching my username in NA1, "tumato".',
       skills: "JavaScript, HTML, CSS, NodeJS, React, Express, Heroku, Netlify",
       demo: "https://lol-mastery-tracker.netlify.app/",
       github: "https://github.com/tommach591/lol-mastery-tracker",
