@@ -13,6 +13,7 @@
 
 .ModalBody {
   width: 40rem;
+  height: 45rem;
 
   display: flex;
   flex-direction: column;
@@ -74,10 +75,12 @@
 
 .ProjectLinks {
   width: 100%;
+
   display: flex;
   align-items: center;
   justify-content: center;
 
+  margin-top: auto;
   margin-bottom: 2rem;
 }
 

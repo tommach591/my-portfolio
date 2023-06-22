@@ -32,9 +32,9 @@ function Modal({ modalOn, setModalOn, item }) {
         </div>
         <div className="ModalText">
           <h1>{item.title}</h1>
+          <h2>Skills: {item.skills}</h2>
           <h2>{item.description}</h2>
           <h2>{item.details}</h2>
-          <h2>Skills: {item.skills}</h2>
         </div>
         <div className="ProjectLinks">
           {item.demo ? (

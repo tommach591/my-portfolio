@@ -8,12 +8,14 @@ function AboutMe() {
         <div className="Text">
           <h1>About Me</h1>
           <h2>
-            I hold a Bachelor of Science degree in Computer Science from San
-            Jose State University. During my academic journey, I gained
-            proficiency in a range of programming languages, including C++,
-            Java, and JavaScript. Following my graduation, I have built and
-            published several web applications using React. I am always on the
-            lookout for new projects to take on and further hone my skills.
+            I have a strong educational background, holding a Bachelor of
+            Science degree in Computer Science from San Jose State University.
+            With my comprehensive studies, I have developed a high level of
+            proficiency in various programming languages, such as C++, Java, and
+            JavaScript. Leveraging my skills, I have successfully built and
+            launched multiple web applications using React. Continuously seeking
+            new challenges, I am committed to refining my abilities and staying
+            ahead of the latest industry trends.
           </h2>
           <div className="Actions">
             <a

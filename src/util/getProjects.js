@@ -4,9 +4,9 @@ export function getProjects() {
       title: "Resize Me",
       img: "https://i.imgur.com/3cIQBir.png",
       description:
-        "A web app designed to resize multiple PNG images. Users can upload as much PNGs as they want and resize them all to the same size. User can also rename each image before downloading a zip of all the resized images.",
+        "This web app is specifically designed for resizing multiple PNG images simultaneously. Users have the ability to upload any number of PNGs and resize them uniformly. Additionally, users can rename each image as desired before downloading a zip file containing all the resized images.",
       details:
-        "This project was developed for emote artists. Content creation is very popular and everyone needs images in a variety of sizes. I designed this website to make it easier for artists to resize their work. For example, Twitch emote sizes ranges from 112/56/28px. This project taught me how to resize images, maintain quality, and create zip files.",
+        "This project was specifically developed for emote artists who require images in various sizes. Recognizing the popularity of content creation and the need for resizing images, I designed this website to streamline the process for artists. For instance, Twitch emotes often come in sizes ranging from 112/56/28px. Throughout this project, I gained valuable experience in image resizing, ensuring optimal quality, and creating zip files for easy distribution.",
       skills: "JavaScript, HTML, CSS, NodeJS, React, Netlify",
       demo: "https://resizeme.netlify.app/",
       github: "https://github.com/tommach591/resizeme",
@@ -15,9 +15,9 @@ export function getProjects() {
       title: "Drewdle",
       img: "https://i.imgur.com/QCsKIeg.png",
       description:
-        "A web app combining the concepts of Wordle and Google's Quick, Draw! Draw the daily word using different colors and brush sizes. Once you are done, you can submit your drawing for other people to see. Drawings are displayed as a gallery for people to like and enjoy!",
+        "A web app that merges the concepts of Wordle and Google's Quick, Draw! Users can draw the daily word using various colors and brush sizes. Once completed, drawings can be submitted for others to view. The app showcases the drawings in a gallery where people can like and appreciate them!",
       details:
-        "I wanted to develop a simple daily game. I came up with two ideas for this game: drawing and sharing the drawing. This project introduced the HTML canvas element to me. I learned how to store strokes of points drawn on canvas, implement undo/redo functions, and draw the strokes onto canvas.",
+        "I aimed to create a straightforward daily game and explored two concepts: drawing and sharing the drawings. This project introduced me to the HTML canvas element and allowed me to learn various aspects, including storing points drawn on the canvas, implementing undo/redo functionality, and rendering the strokes onto the canvas.",
       skills:
         "JavaScript, HTML, CSS, NodeJS, React, MongoDB, Express, Heroku, Netlify",
       demo: "https://drewdle.netlify.app/",
@@ -27,9 +27,9 @@ export function getProjects() {
       title: "Peepo Builder",
       img: "https://i.imgur.com/712NTEv.png",
       description:
-        "A web app that allows users to upload PNG's as layers. The web app takes these layers and combines them into a single PNG. Users can also organize the layer's order by dragging and dropping allowing them to create the ideal picture.",
+        "This web app enables users to upload PNG images as layers. The app then merges these layers into a single PNG image. Users have the ability to organize the order of the layers by simply dragging and dropping, allowing them to create their desired picture composition.",
       details:
-        "This project was built for fun, inspired by the game, Gaia Online. I learned how to allow users to upload their own images and download their creation. This project uses the node package mergeImages to combine multiple layers of images into a single image.",
+        "This project was a fun endeavor inspired by the game Gaia Online. Through this project, I gained experience in implementing user image upload functionality and enabling users to download their creations. To accomplish this, I utilized the node package 'mergeImages' to seamlessly merge multiple image layers into a single image.",
       skills: "JavaScript, HTML, CSS, NodeJS, React, Netlify",
       demo: "https://peepo-builder.netlify.app/",
       github: "https://github.com/tommach591/peepo-builder",
@@ -38,9 +38,9 @@ export function getProjects() {
       title: "LoL Mastery Tracker",
       img: "https://i.imgur.com/xgNEOEJ.png",
       description:
-        "A progress tracker for the online game, League of Legends. Users type in their in-game name and the website retrieves the information from the server and displays it. Built to be extremely user friendly.",
+        "A progress tracker for the online game League of Legends, this website allows users to enter their in-game name and retrieves the corresponding information from the server for display. The application is designed with a strong focus on user-friendliness.",
       details:
-        "This was a full stack project where I used Riot Games' API. I had to use their API in order to get live data for the game. This project taught me more about environmental variables and how to properly store API keys.",
+        "This full stack project involved utilizing Riot Games' API to retrieve live data for the game. Through this project, I gained valuable experience in working with environmental variables and implementing secure storage of API keys.",
       skills: "JavaScript, HTML, CSS, NodeJS, React, Express, Heroku, Netlify",
       demo: "https://lol-mastery-tracker.netlify.app/",
       github: "https://github.com/tommach591/lol-mastery-tracker",
@@ -49,9 +49,9 @@ export function getProjects() {
       title: "MHW Armor Set Builder",
       img: "https://i.imgur.com/7jSwm2o.png",
       description:
-        "An armor set builder for the game Monster Hunter World. Browse through weapons, armors, charms, and decorations and plan out which skills you want to bring into your game.",
+        "An armor set builder for the game Monster Hunter World. Browse through weapons, armors, charms, and decorations to plan out which skills you want to incorporate into your gameplay.",
       details:
-        "This was a React web app project I built to learn more about APIs and CSS. After making the API call, I wanted to present all the information in a presentable way similar to the actual game itself.",
+        "This project was a React web app that I built to enhance my knowledge of APIs and CSS. Upon making the API call, my aim was to present the retrieved information in a visually appealing manner, reminiscent of the actual game interface.",
       skills: "JavaScript, HTML, CSS, NodeJS, React, Netlify",
       demo: "https://mhw-armor-set-builder.netlify.app/",
       github: "https://github.com/tommach591/mhw-armor-set-builder",
@@ -60,9 +60,9 @@ export function getProjects() {
       title: "Facebawk",
       img: "https://i.imgur.com/0QolhxG.png",
       description:
-        "A full stack Facebook clone. Users can sign up, add friends, edit profile, make posts, like and comment. User data, such as profile and posts are stored in MongoDB.",
+        "This is a full-stack Facebook clone where users can sign up, add friends, edit their profile, create posts, and interact with posts through likes and comments. User data, including profiles and posts, is stored in MongoDB.",
       details:
-        "This was a two week project to test what I have learned over 4-5 months of studying front end development. This was also the first project since graduating where I had to implement my own back end. I learned how to not only build my own back end, but also to host both my back end and front end on Heroku and Netlify.",
+        "This was a two-week project designed to assess my knowledge after studying front-end development for 4-5 months. It was also the first project since graduating where I had to implement my own back end. Through this experience, I gained valuable insights into building and hosting my own back end, as well as deploying both the back end and front end on Heroku and Netlify.",
       skills:
         "JavaScript, HTML, CSS, NodeJS, React, MongoDB, Express, Heroku, Netlify",
       demo: "https://facebawk.netlify.app/",
@@ -72,9 +72,9 @@ export function getProjects() {
       title: "Tummybot",
       img: "https://i.imgur.com/UXplqqV.png",
       description:
-        "A Discord bot filled with multiple features, such as minigames, fishing, gardening, and pet care. You can also hunt cool monsters and get rare equipment to upgrade.",
+        "A feature-rich Discord bot offering a variety of activities including minigames, fishing, gardening, pet care, and monster hunting, allowing users to collect rare equipment for upgrades.",
       details:
-        "This was a passion project to learn JavaScript. I learned how to use Discord.js and created an interactive bot for my friends to play with. I got really invested in it and continued adding in new features. Eventually, I learned how to host the bot on Heroku and store player progress on AWS S3. I designed my own objects and made my own database using collections of JSON objects. Now that I have finished, there are many things I would do differently, such as how I would code it and using an actual database.",
+        "This project was a personal endeavor aimed at learning JavaScript. I delved into Discord.js and developed an interactive bot for my friends to enjoy. As my enthusiasm grew, I continuously expanded its functionality by introducing new features. Moreover, I acquired knowledge on hosting the bot on Heroku and storing player progress on AWS S3. To create a custom database, I designed my own objects and employed collections of JSON objects. Looking back, there are several aspects I would approach differently, including coding practices and the utilization of a dedicated database solution.",
       skills: "JavaScript, NodeJS, AWS S3, Heroku",
       demo: "",
       github: "https://github.com/tommach591/TummyBot",
@@ -85,7 +85,7 @@ export function getProjects() {
       description:
         "A simple Discord bot that generates a random Pokemon as Pokemon of the Day.",
       details:
-        "This project was built for a friend. Not only that, it was to get comfortable with learning how to use different node packages.",
+        "This project was developed for a friend, serving as an opportunity for me to gain familiarity with various node packages and expand my skillset.",
       skills: "JavaScript, NodeJS, AWS S3, Heroku",
       demo: "",
       github: "https://github.com/tommach591/LaprasBot",
@@ -94,9 +94,9 @@ export function getProjects() {
       title: "Wizard",
       img: "https://i.imgur.com/jLGHK94.png",
       description:
-        "A platformer game built on Unity and published on itch.io. Player must progress though each level, defeat each boss, and retrieve their stolen orbs.",
+        "A platformer game created using Unity and published on itch.io. Players are challenged to navigate through each level, overcome obstacles, defeat unique bosses, and retrieve their stolen orbs.",
       details:
-        "This project was the finals for my Intro Game Studies course at San Jose State University. I worked with a team of two software engineers and two artists. We would meet regularly to discuss features and gameplay mechanics to add to the game. The goal was not only to design an enjoyable game, but to also showcase the artist's work.",
+        "This project was the final assignment for my Intro Game Studies course. I collaborated with a team consisting of two software engineers and two artists. We held regular meetings to discuss the implementation of features and gameplay mechanics for the game. Our objective was not only to create an enjoyable gaming experience but also to showcase the artistic work.",
       skills: "C#, Unity",
       demo: "https://narwaltz.itch.io/wizard",
       github: "",
@@ -105,9 +105,9 @@ export function getProjects() {
       title: "Board Game Notes",
       img: "https://i.imgur.com/oYLQG4N.png",
       description:
-        "A note taking web app for the board game, Awkward Guests. Removes the need of pencil and paper, providing more table space. Designed to be user friendly and accessible.",
+        "A note-taking web app designed specifically for the board game Awkward Guests, eliminating the need for pen and paper and allowing for more table space. The app is user-friendly and accessible, providing a seamless experience.",
       details:
-        "This project introduced me to front end development. I implemented new features requested by the project owner and resolved issues. I learned a bit of React by reading the source code and playing around with it.",
+        "This project served as my introduction to front-end development, where I successfully implemented requested features and resolved various issues. During this process, I familiarized myself with React by thoroughly examining the source code and experimenting with its functionalities.",
       skills: "JavaScript, NodeJS, React, HTML, CSS",
       demo: "https://boardgamenotes.web.app/",
       github: "https://github.com/mike591/board-game-notes",
@@ -118,7 +118,7 @@ export function getProjects() {
       description:
         "A platformer game built on Unity and published on itch.io. Play as the chicken and collect corn! Reach the end and get rewarded with more corn!",
       details:
-        "This was a project for my Intro Game Studies course at San Jose State University. This game was designed to implement concepts discussed in class, such as challenges, motivation, appeal, etc.",
+        "This project was completed as part of my Intro Game Studies course. The objective was to design a game that effectively incorporated concepts discussed in class, including challenges, motivation, appeal, and more.",
       skills: "C#, Unity",
       demo: "https://narwaltz.itch.io/cluck-cluck-corn-demo",
       github: "",
@@ -127,9 +127,9 @@ export function getProjects() {
       title: "Tap Ping!",
       img: "https://i.imgur.com/DJBKFSj.png",
       description:
-        "A mobile tapping game built on Unity and published on the Google Play Store. Tap Ping the Peregrine and save Ding the Duck! Get yourself a new high score!",
+        "A mobile tapping game built on Unity and published on the Google Play Store. Tap Ping the Peregrine and save Ding the Duck and get yourself a new high score!",
       details:
-        "First project using Unity and C#. Learned how to create my own game, export onto mobile devices, and even implement ads.",
+        "This was my first major project after learning how to code. I took the initiative to self-teach myself C# and Unity because of my keen interest in game design. Through this experience, I gained valuable knowledge in developing my own game, exporting it onto mobile devices, and successfully implementing ads.",
       skills: "C#, Unity",
       demo: "https://play.google.com/store/apps/details?id=com.Narwaltz.TapPing&hl=en_US&gl=US",
       github: "",
