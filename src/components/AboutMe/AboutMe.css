@@ -24,6 +24,10 @@
   box-shadow: -3px 5px 5px 2px rgb(25, 25, 25);
 }
 
+.Text {
+  width: 100%;
+}
+
 .Text > h1 {
   width: fit-content;
 
