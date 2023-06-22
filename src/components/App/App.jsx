@@ -4,7 +4,7 @@ import { getProjects } from "../../util/getProjects";
 import Carousel from "../Carousel";
 import Header from "../Header";
 import AboutMe from "../AboutMe";
-import Projects from "../Projects";
+import Project from "../Project";
 import Modal from "../Modal";
 
 function App() {
@@ -35,7 +35,7 @@ function App() {
         <h1 className="ProjectTitle">Projects</h1>
         <div className="ProjectGrid">
           {list.map((item, i) => (
-            <Projects
+            <Project
               key={i}
               item={item}
               handleProjectClick={handleProjectClick}

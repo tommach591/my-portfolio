@@ -1,6 +1,6 @@
-import "./Projects.css";
+import "./Project.css";
 
-function Projects({ item, handleProjectClick }) {
+function Project({ item, handleProjectClick }) {
   return (
     <div className="Project" onClick={() => handleProjectClick(item)}>
       <div className="ProjectThumbnail">
@@ -14,4 +14,4 @@ function Projects({ item, handleProjectClick }) {
   );
 }
 
-export default Projects;
+export default Project;

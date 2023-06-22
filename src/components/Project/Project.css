@@ -50,3 +50,20 @@
 
   line-height: 22px;
 }
+
+@media (max-width: 1024px) {
+  .Project {
+    width: 80%;
+    height: 22rem;
+  }
+
+  .ProjectText > h1 {
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+  }
+
+  .ProjectText > h2 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

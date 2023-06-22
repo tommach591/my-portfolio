@@ -54,6 +54,7 @@
 
 .ModalText {
   padding: 1rem;
+  overflow-y: auto;
 }
 
 .ModalText > h1 {
@@ -98,5 +99,40 @@
 .ProjectLink:hover {
   cursor: pointer;
   background: rgb(25, 25, 25);
+}
+
+@media (max-width: 1024px) {
+  .ModalBody {
+    width: 20rem;
+    height: 35rem;
+    top: 3rem;
+  }
+
+  .ModalText {
+    padding-bottom: 0rem;
+  }
+
+  .ModalText > h1 {
+    font-size: 18px;
+    margin-bottom: 0.75rem;
+  }
+
+  .ModalText > h2 {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 0.75rem;
+  }
+
+  .ProjectLinks {
+    margin-bottom: 1rem;
+  }
+
+  .ProjectLink {
+    width: 3rem;
+
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 }
 

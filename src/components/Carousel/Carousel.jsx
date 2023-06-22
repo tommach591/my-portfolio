@@ -9,6 +9,26 @@ function Carousel({ list, handleProjectClick }) {
 
   const [shift, setShift] = useState("");
 
+  const [touchStart, setTouchStart] = useState(0);
+  const [touchEnd, setTouchEnd] = useState(0);
+
+  function handleTouchStart(event) {
+    setTouchStart(event.targetTouches[0].clientX);
+  }
+
+  function handleTouchMove(event) {
+    setTouchEnd(event.targetTouches[0].clientX);
+  }
+
+  function handleTouchEnd() {
+    if (touchStart - touchEnd > 10) {
+      setShift("next");
+    }
+    if (touchStart - touchEnd < -10) {
+      setShift("prev");
+    }
+  }
+
   const handleNext = useCallback(() => {
     setPrev(current);
     setCurrent(next);
@@ -50,7 +70,12 @@ function Carousel({ list, handleProjectClick }) {
   }, [shift, current]);
 
   return (
-    <div className="Carousel">
+    <div
+      className="Carousel"
+      onTouchStart={(event) => handleTouchStart(event)}
+      onTouchMove={(event) => handleTouchMove(event)}
+      onTouchEnd={() => handleTouchEnd()}
+    >
       <div
         className="ContentContainer"
         shift={shift}
