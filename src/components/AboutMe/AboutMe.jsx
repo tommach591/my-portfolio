@@ -1,9 +1,15 @@
 import "./AboutMe.css";
 import Resume from "../../assets/Tom Mach Resume.pdf";
+import { useState } from "react";
 
 function AboutMe() {
+  const [alert, setAlert] = useState("");
+
   return (
     <div className="AboutMe">
+      <div className="Alert" alert={alert} onAnimationEnd={() => setAlert("")}>
+        <h1>Copied to Clipboard!</h1>
+      </div>
       <div className="Info">
         <div className="Text">
           <h1>About Me</h1>
@@ -48,7 +54,7 @@ function AboutMe() {
               className="ContactButton"
               onClick={() => {
                 navigator.clipboard.writeText("tom.m.mach@gmail.com");
-                alert("Email Copied!");
+                setAlert("alert");
               }}
             >
               <h1>Copy Email</h1>

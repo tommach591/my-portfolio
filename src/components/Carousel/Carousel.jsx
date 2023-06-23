@@ -62,7 +62,7 @@ function Carousel({ list, handleProjectClick }) {
   useEffect(() => {
     const interval = setTimeout(() => {
       setShift("next");
-    }, [5000]);
+    }, [3500]);
 
     return () => {
       clearInterval(interval);

@@ -1,6 +1,6 @@
 # Portfolio - Tom Mach
 
-My Portfolio
+My updated portfolio built with React/HTML/CSS.
 
 ## Setup
 
