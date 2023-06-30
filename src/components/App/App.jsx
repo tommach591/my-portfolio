@@ -51,7 +51,7 @@ function App() {
             {"<"}
           </h1>
           {Array.from(
-            { length: Math.floor(getProjects().length / 3) },
+            { length: Math.ceil(getProjects().length / 3) },
             (_, index) => index + 1
           ).map((_, i) => (
             <h1
@@ -64,7 +64,7 @@ function App() {
           ))}
           <h1
             onClick={() => {
-              if (page < Math.floor(getProjects().length / 3) - 1)
+              if (page < Math.ceil(getProjects().length / 3) - 1)
                 setPage(page + 1);
             }}
           >
