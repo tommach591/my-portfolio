@@ -2,7 +2,7 @@ export function getProjects() {
   return [
     {
       title: "Blackjack TS",
-      img: "https://i.imgur.com/InKrnge.png",
+      img: "https://i.imgur.com/utf57gd.png",
       description:
         "Blackjack built using TypeScript and React. Obtain currency overtime to place bets.",
       details:
