@@ -1,6 +1,17 @@
 export function getProjects() {
   return [
     {
+      title: "Blackjack TS",
+      img: "https://i.imgur.com/InKrnge.png",
+      description:
+        "Blackjack built using TypeScript and React. Obtain currency overtime to place bets.",
+      details:
+        "I initiated this project with the intention of mastering TypeScript. Having previously implemented Blackjack in one of my past projects, Tummybot, I recognized it as an excellent practice challenge to enhance my TypeScript skills.",
+      skills: "TypeScript, JavaScript, HTML, CSS, NodeJS, React, Netlify",
+      demo: "https://blackjack-ts.netlify.app/",
+      github: "https://github.com/tommach591/blackjack-ts",
+    },
+    {
       title: "Resize Me",
       img: "https://i.imgur.com/3cIQBir.png",
       description:
