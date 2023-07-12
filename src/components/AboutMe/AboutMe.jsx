@@ -70,9 +70,9 @@ function AboutMe() {
         <div className="Text">
           <h1>Skills</h1>
           <h2>
-            JavaScript, CSS, HTML, Node.js, React.js, Express.js, C++, Java, C,
-            C#, Python, SQL, NoSQL, MySQL, Cassandra, Redis, MongoDB, Neo4j,
-            AWS, Docker, Unity, Visual Studio Code, Google Suite
+            JavaScript, TypeScript, CSS, HTML, Node.js, React.js, Express.js,
+            C++, Java, C, C#, Python, SQL, NoSQL, MySQL, Cassandra, Redis,
+            MongoDB, Neo4j, AWS, Docker, Unity, Visual Studio Code, Google Suite
           </h2>
         </div>
       </div>
