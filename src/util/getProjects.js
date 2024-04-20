@@ -1,6 +1,17 @@
 export function getProjects() {
   return [
     {
+      title: "Yen Table",
+      img: "https://i.imgur.com/WhYevgg.png",
+      description:
+        "A React Web App, built to be a PWA (Progressive Web App). Displays current exchange rates for the yen in table format.",
+      details:
+        "I built this project based off another app I saw. I thought it would be convenient to see a rough estimate on how much USD I am spending when I am using JPY. I intend to use this app for my own personal trip to Japan.",
+      skills: "JavaScript, HTML, CSS, NodeJS, React, Express, Heroku, Netlify",
+      demo: "https://yentable.netlify.app/",
+      github: "https://github.com/tommach591/yen-converter",
+    },
+    {
       title: "Blackjack TS",
       img: "https://i.imgur.com/utf57gd.png",
       description:
