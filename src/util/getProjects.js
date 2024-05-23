@@ -2,7 +2,7 @@ export function getProjects() {
   return [
     {
       title: "Yen Table",
-      img: "https://i.imgur.com/WhYevgg.png",
+      img: "https://i.imgur.com/PFfGFWA.png",
       description:
         "A React Web App, built to be a PWA (Progressive Web App). Displays current exchange rates for the yen in table format.",
       details:
